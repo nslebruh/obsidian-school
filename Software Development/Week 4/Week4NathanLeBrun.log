@@ -1,0 +1,356 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.22)  6 MAR 2023 21:26
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./Week4NathanLeBrun.tex
+(Week4NathanLeBrun.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-23>
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2022/12/12 v2.7 Yet another Pygments shim for LaTeX
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count194
+\FV@InFile=\read2
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count195
+\FV@StepNumber=\count196
+\FV@OutFile=\write3
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2023/01/19 line numbers on paragraphs v5.1
+\linenopenalty=\count197
+\output=\toks17
+\linenoprevgraf=\count198
+\linenumbersep=\dimen139
+\linenumberwidth=\dimen140
+\c@linenumber=\count199
+\c@pagewiselinenumber=\count266
+\c@LN@truepage=\count267
+\c@internallinenumber=\count268
+\c@internallinenumbers=\count269
+\quotelinenumbersep=\dimen141
+\bframerule=\dimen142
+\bframesep=\dimen143
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3131.
+)
+\c@FV@TrueTabGroupLevel=\count270
+\c@FV@TrueTabCounter=\count271
+\FV@TabBox@Group=\box53
+\FV@TmpLength=\skip49
+\c@FV@HighlightLinesStart=\count272
+\c@FV@HighlightLinesStop=\count273
+\FV@LoopCount=\count274
+\FV@NCharsBox=\box54
+\FV@BreakIndent=\dimen144
+\FV@BreakIndentNChars=\count275
+\FV@BreakSymbolSepLeft=\dimen145
+\FV@BreakSymbolSepLeftNChars=\count276
+\FV@BreakSymbolSepRight=\dimen146
+\FV@BreakSymbolSepRightNChars=\count277
+\FV@BreakSymbolIndentLeft=\dimen147
+\FV@BreakSymbolIndentLeftNChars=\count278
+\FV@BreakSymbolIndentRight=\dimen148
+\FV@BreakSymbolIndentRightNChars=\count279
+\c@FancyVerbLineBreakLast=\count280
+\FV@LineBox=\box55
+\FV@LineIndentBox=\box56
+\c@FV@BreakBufferDepth=\count281
+\FV@LineWidth=\dimen149
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count284
+\calc@Cskip=\skip52
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform.s
+ty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.s
+ty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)) (C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count285
+\decimalpart=\count286
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+) (C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen152
+\fb@frh=\dimen153
+\FrameRule=\dimen154
+\FrameSep=\dimen155
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks18
+\float@box=\box57
+\@float@everytoks=\toks19
+\@floatcapt=\box58
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box59
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count288
+\c@minted@pygmentizecounter=\count289
+\@float@every@listing=\toks20
+\c@listing=\count290
+)
+runsystem(if not exist _minted-Week4NathanLeBrun mkdir _minted-Week4NathanLeBru
+n)...executed.
+
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
+ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > We
+ek4NathanLeBrun.aex <nul: /p x=^%~$PATH:i>> Week4NathanLeBrun.aex)...executed.
+
+runsystem(del Week4NathanLeBrun.aex)...executed.
+
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+\l__pdf_internal_box=\box60
+) (Week4NathanLeBrun.aux)
+\openout1 = `Week4NathanLeBrun.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen158
+\scratchbox=\box61
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen159
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks22
+)
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\nsleb\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+\openout3 = `Week4NathanLeBrun.pyg'.
+
+ (_minted-Week4NathanLeBrun/default.pygstyle)
+(_minted-Week4NathanLeBrun/7B9F27AE67D26161B1D386D473B0D0E3407EC4C8D231EC557ED7
+02D4613DB99E.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
+)
+<./images//Task1A.png, id=1, 266.79675pt x 198.7425pt>
+File: ./images//Task1A.png Graphic file (type png)
+<use ./images//Task1A.png>
+Package pdftex.def Info: ./images//Task1A.png  used on input line 26.
+(pdftex.def)             Requested size: 266.79608pt x 198.742pt.
+\openout3 = `Week4NathanLeBrun.pyg'.
+
+ [1
+
+{C:/Users/nsleb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images//Ta
+sk1A.png>]
+(_minted-Week4NathanLeBrun/D281FD625C3B769F19D74DED5C38C336407EC4C8D231EC557ED7
+02D4613DB99E.pygtex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+)
+<./images//Task1B.png, id=12, 506.49225pt x 105.996pt>
+File: ./images//Task1B.png Graphic file (type png)
+<use ./images//Task1B.png>
+Package pdftex.def Info: ./images//Task1B.png  used on input line 60.
+(pdftex.def)             Requested size: 345.0pt x 72.20247pt.
+ [2 <./images//Task1B.png>]
+\openout3 = `Week4NathanLeBrun.pyg'.
+
+
+(_minted-Week4NathanLeBrun/4C02B1C2A9E1C3DC06E0C0799CF9BB14407EC4C8D231EC557ED7
+02D4613DB99E.pygtex)
+<./images//Task2C.png, id=18, 260.77425pt x 186.09525pt>
+File: ./images//Task2C.png Graphic file (type png)
+<use ./images//Task2C.png>
+Package pdftex.def Info: ./images//Task2C.png  used on input line 104.
+(pdftex.def)             Requested size: 345.0pt x 246.22289pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <./images//Task2C.png>] (Week4NathanLeBrun.aux)
+runsystem(del Week4NathanLeBrun.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5787 strings out of 477843
+ 113951 string characters out of 2823598
+ 463969 words of memory out of 3000000
+ 24626 multiletter control sequences out of 15000+600000
+ 473710 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,9n,77p,541b,669s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/nsleb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/nsleb/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmitt10.pfb><C:/Users/nsleb/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb><C:/Users/nsleb/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nsleb/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nsleb/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nsleb/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/nsleb/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Week4NathanLeBrun.pdf (4 pages, 223312 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{x}{            }\PYG{c+cp}{\PYGZlt{}?php}
+              \PYG{k}{declare}\PYG{p}{(}\PYG{n+nx}{strict\PYGZus{}types} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{);}
+              \PYG{k}{function} \PYG{n+nf}{rectangle\PYGZus{}area}\PYG{p}{(}\PYG{n+nx}{int} \PYG{n+nv}{\PYGZdl{}width}\PYG{p}{,} \PYG{n+nx}{int} \PYG{n+nv}{\PYGZdl{}height}\PYG{p}{)}\PYG{o}{:} \PYG{n+nx}{int} \PYG{p}{\PYGZob{}}
+                  \PYG{k}{return} \PYG{n+nv}{\PYGZdl{}width} \PYG{o}{*} \PYG{n+nv}{\PYGZdl{}height}
+              \PYG{p}{\PYGZcb{}}
+            \PYG{c+cp}{?\PYGZgt{}}
+\end{Verbatim}

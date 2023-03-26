@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?php}
+  \PYG{n+nv}{\PYGZdl{}arrayA} \PYG{o}{=} \PYG{k}{array}\PYG{p}{();}
+  \PYG{n+nv}{\PYGZdl{}arrayB} \PYG{o}{=} \PYG{k}{array}\PYG{p}{();}
+
+  \PYG{n+nv}{\PYGZdl{}arrayA}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Red\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}FF0000\PYGZdq{}}\PYG{p}{;}
+  \PYG{n+nv}{\PYGZdl{}arrayA}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}White\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}FFFFFF\PYGZdq{}}\PYG{p}{;}
+  \PYG{n+nv}{\PYGZdl{}arrayA}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Green\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}008000\PYGZdq{}}\PYG{p}{;}
+  \PYG{n+nv}{\PYGZdl{}arrayA}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Blue\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}0000FF\PYGZdq{}}\PYG{p}{;}
+
+  \PYG{n+nv}{\PYGZdl{}arrayB}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mf}{22.7}\PYG{p}{;}
+  \PYG{n+nv}{\PYGZdl{}arrayB}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mf}{28.5}\PYG{p}{;}
+  \PYG{n+nv}{\PYGZdl{}arrayB}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mf}{22.1}\PYG{p}{;}
+
+  \PYG{k}{echo} \PYG{l+s+s2}{\PYGZdq{}arrayA\PYGZdq{}} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{}\PYGZlt{}br\PYGZgt{}\PYGZdq{}}\PYG{p}{;}
+  \PYG{k}{foreach}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}arrayA} \PYG{k}{as} \PYG{n+nv}{\PYGZdl{}color}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k}{echo} \PYG{n+nv}{\PYGZdl{}color} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{}\PYGZlt{}br\PYGZgt{}\PYGZdq{}}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{k}{echo} \PYG{l+s+s2}{\PYGZdq{}arrayB\PYGZdq{}} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{}\PYGZlt{}br\PYGZgt{}\PYGZdq{}}\PYG{p}{;}
+  \PYG{k}{for}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n+nv}{\PYGZdl{}i} \PYG{o}{\PYGZlt{}} \PYG{n+nb}{count}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}arrayB}\PYG{p}{);} \PYG{n+nv}{\PYGZdl{}i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k}{echo} \PYG{n+nv}{\PYGZdl{}arrayB}\PYG{p}{[}\PYG{n+nv}{\PYGZdl{}i}\PYG{p}{]} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{}\PYGZlt{}br\PYGZgt{}\PYGZdq{}}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+\PYG{c+cp}{?\PYGZgt{}}
+\end{Verbatim}

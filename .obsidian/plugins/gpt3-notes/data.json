@@ -1,0 +1,88 @@
+{
+  "appName": "GP3_NOTES",
+  "token": "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",
+  "model": "text-davinci-003",
+  "tokens": 300,
+  "temperature": 5,
+  "promptHistory": [
+    {
+      "prompt": "Referring to indictable offences, explain how the Victorian court hierarchy provides for specialisation",
+      "processedPrompt": "Referring to indictable offences, explain how the Victorian court hierarchy provides for specialisation",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Referring to indictable offences, explain how the Victorian court hierarchy provides for specialisation",
+      "processedPrompt": "Referring to indictable offences, explain how the Victorian court hierarchy provides for specialisation",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Referring to indictable offences, explain how the Victorian court hierarchy provides for specialisation",
+      "processedPrompt": "Referring to indictable offences, explain how the Victorian court hierarchy provides for specialisation",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write bullet notes on Circle of transformations. include formulas using MathJax",
+      "processedPrompt": "Write bullet notes on Circle of transformations. include formulas using MathJax",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write bullet notes on linear regression. include formulas using MathJax",
+      "processedPrompt": "Write bullet notes on linear regression. include formulas using MathJax",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write bullet notes on sanctions in the Victorian Legal System\n",
+      "processedPrompt": "Write bullet notes on sanctions in the Victorian Legal System\n",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "How does government funding to CLCs affect the ability of the criminal justice system to achieve the principles of justice? Give reasons for your answer. ",
+      "processedPrompt": "How does government funding to CLCs affect the ability of the criminal justice system to achieve the principles of justice? Give reasons for your answer. ",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write bullet notes on sanctions in the Mean Smoothing\n",
+      "processedPrompt": "Write bullet notes on sanctions in the Mean Smoothing\n",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write bullet notes on Mean Smoothing",
+      "processedPrompt": "Write bullet notes on Mean Smoothing",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write bullet notes on Mean Smoothing. Include formulas using MathJax",
+      "processedPrompt": "Write bullet notes on Mean Smoothing. Include formulas using MathJax",
+      "temperature": 0.5,
+      "tokens": 300
+    }
+  ],
+  "tokenParams": {
+    "prefix": [
+      "Write an essay",
+      "Write dashed notes",
+      "Write bullet notes",
+      "Write paragraphs",
+      "Write an article",
+      "Create a manual",
+      "Create an outline",
+      "Write a summary",
+      "Write a program"
+    ],
+    "postfix": [
+      "with sources",
+      "with footnotes",
+      "with comments",
+      "with quotes"
+    ]
+  }
+}

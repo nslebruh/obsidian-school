@@ -1,0 +1,18 @@
+{
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "showInlineTitle": false,
+  "foldHeading": false,
+  "foldIndent": false,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

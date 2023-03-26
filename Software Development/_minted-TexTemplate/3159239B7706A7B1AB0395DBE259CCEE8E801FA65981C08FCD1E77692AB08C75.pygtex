@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{x}{            \PYGZlt{}php}
+\PYG{x}{              declare(strict\PYGZus{}types = 1);}
+\PYG{x}{              function rectangle\PYGZus{}area(int \PYGZdl{}width, int \PYGZdl{}height): int \PYGZob{}}
+\PYG{x}{                  return \PYGZdl{}width * \PYGZdl{}height}
+\PYG{x}{              \PYGZcb{}}
+\PYG{x}{            ?\PYGZgt{}}
+\end{Verbatim}

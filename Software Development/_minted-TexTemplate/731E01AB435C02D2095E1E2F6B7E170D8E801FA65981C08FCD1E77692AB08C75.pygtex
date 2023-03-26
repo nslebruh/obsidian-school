@@ -1,0 +1,36 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?php}
+  	\PYG{n+nx}{\PYGZbs{}left}\PYG{p}{(} \PYG{n+nv}{\PYGZdl{}width} \PYG{o}{=} \PYG{n+nv}{\PYGZdl{}length} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+	\PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}\PYGZus{}SERVER}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}REQUEST\PYGZus{}METHOD\PYGZdq{}}\PYG{p}{]} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}POST\PYGZdq{}}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+		\PYG{n+nv}{\PYGZdl{}width} \PYG{o}{=} \PYG{n+nx}{test\PYGZus{}input}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}\PYGZus{}POST}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}width\PYGZdq{}}\PYG{p}{]);}
+		\PYG{n+nv}{\PYGZdl{}length} \PYG{o}{=} \PYG{n+nx}{test\PYGZus{}input}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}\PYGZus{}POST}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}length\PYGZdq{}}\PYG{p}{]);}
+	\PYG{p}{\PYGZcb{}}
+
+\PYG{k}{function} \PYG{n+nf}{test\PYGZus{}input}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}data}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+	\PYG{n+nv}{\PYGZdl{}data} \PYG{o}{=} \PYG{n+nb}{trim}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}data}\PYG{p}{);}
+	\PYG{n+nv}{\PYGZdl{}data} \PYG{o}{=} \PYG{n+nb}{stripslashes}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}data}\PYG{p}{);}
+	\PYG{n+nv}{\PYGZdl{}data} \PYG{o}{=} \PYG{n+nb}{htmlspecialchars}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}data}\PYG{p}{);}
+	\PYG{k}{return} \PYG{n+nv}{\PYGZdl{}data}\PYG{p}{;}
+\PYG{p}{\PYGZcb{})}
+\PYG{c+cp}{?\PYGZgt{}}
+\PYG{x}{    \PYGZlt{}form method=\PYGZdq{}post\PYGZdq{} action=\PYGZdq{}}\PYG{c+cp}{\PYGZlt{}?php} \PYG{k}{echo} \PYG{n+nb}{htmlspecialchars}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}\PYGZus{}SERVER}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}PHP\PYGZus{}SELF\PYGZdq{}}\PYG{p}{]);}\PYG{c+cp}{?\PYGZgt{}}\PYG{x}{\PYGZdq{}\PYGZgt{}}
+\PYG{x}{        Length:}
+\PYG{x}{        \PYGZlt{}input type=\PYGZdq{}number\PYGZdq{} name=\PYGZdq{}length\PYGZdq{} id=\PYGZdq{}length\PYGZdq{}\PYGZgt{}}
+\PYG{x}{        \PYGZlt{}br\PYGZgt{}}
+\PYG{x}{        Width:}
+\PYG{x}{        \PYGZlt{}input type=\PYGZdq{}number\PYGZdq{} name=\PYGZdq{}width\PYGZdq{} id=\PYGZdq{}width\PYGZdq{}\PYGZgt{}}
+\PYG{x}{        \PYGZlt{}br\PYGZgt{}}
+\PYG{x}{        \PYGZlt{}button type=\PYGZdq{}submit\PYGZdq{}\PYGZgt{}Submit\PYGZlt{}/button\PYGZgt{}}
+\PYG{x}{    \PYGZlt{}/form\PYGZgt{}}
+
+\PYG{x}{    }\PYG{c+cp}{\PYGZlt{}?php}
+        \PYG{k}{function} \PYG{n+nf}{rect\PYGZus{}area}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}length}\PYG{p}{,} \PYG{n+nv}{\PYGZdl{}width}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+            \PYG{k}{return} \PYG{n+nv}{\PYGZdl{}length} \PYG{o}{*} \PYG{n+nv}{\PYGZdl{}width}\PYG{p}{;}
+        \PYG{p}{\PYGZcb{};}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}length} \PYG{o}{||} \PYG{n+nv}{\PYGZdl{}width}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+            \PYG{k}{echo} \PYG{l+s+s2}{\PYGZdq{}Area of a rectangle with a length of \PYGZdq{}} \PYG{o}{.} \PYG{n+nv}{\PYGZdl{}length} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{} and a width of \PYGZdq{}} \PYG{o}{.} \PYG{n+nv}{\PYGZdl{}width} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{} = \PYGZdq{}} \PYG{o}{.} \PYG{n+nx}{rect\PYGZus{}area}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}length}\PYG{p}{,} \PYG{n+nv}{\PYGZdl{}width}\PYG{p}{);}
+        \PYG{p}{\PYGZcb{}}
+
+
+    \PYG{c+cp}{?\PYGZgt{}}
+\end{Verbatim}

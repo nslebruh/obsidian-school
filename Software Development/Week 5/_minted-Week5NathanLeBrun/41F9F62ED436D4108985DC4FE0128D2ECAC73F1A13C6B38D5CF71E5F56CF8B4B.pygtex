@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?php}
+  \PYG{n+nv}{\PYGZdl{}i} \PYG{o}{=} \PYG{l+m+mi}{0}
+  \PYG{k}{while} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}i} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{10}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n+nv}{\PYGZdl{}i} \PYG{o}{=} \PYG{n+nv}{\PYGZdl{}i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{k}{echo} \PYG{n+nv}{\PYGZdl{}i}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+\PYG{c+cp}{?\PYGZgt{}}
+\end{Verbatim}

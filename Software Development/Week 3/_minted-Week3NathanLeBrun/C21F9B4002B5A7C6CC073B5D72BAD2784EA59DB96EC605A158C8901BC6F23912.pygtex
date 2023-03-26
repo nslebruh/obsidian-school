@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?php}
+  \PYG{k}{function} \PYG{n+nf}{age\PYGZus{}check}\PYG{p}{(}\PYG{n+nx}{int} \PYG{n+nv}{\PYGZdl{}age}\PYG{p}{)}\PYG{o}{:} \PYG{n+nx}{string} \PYG{p}{\PYGZob{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}age} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{3}\PYG{p}{)} \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}You are too young for school\PYGZdq{}}\PYG{p}{;}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}age} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{18}\PYG{p}{)} \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}You do not have to go to school\PYGZdq{}}\PYG{p}{;}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}age} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{5}\PYG{p}{)} \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}You can go to preschool\PYGZdq{}}\PYG{p}{;}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}age} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{12}\PYG{p}{)} \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}You can go to primary school\PYGZdq{}}\PYG{p}{;}
+    \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}You can go to high school\PYGZdq{}}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+\PYG{c+cp}{?\PYGZgt{}}
+\end{Verbatim}

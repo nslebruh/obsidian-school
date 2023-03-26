@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?php}
+  \PYG{k}{function} \PYG{n+nf}{calc\PYGZus{}bmi}\PYG{p}{(}\PYG{n+nx}{float} \PYG{n+nv}{\PYGZdl{}height}\PYG{p}{,} \PYG{n+nx}{float} \PYG{n+nv}{\PYGZdl{}weight}\PYG{p}{)}\PYG{o}{:} \PYG{n+nx}{float} \PYG{p}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n+nb}{round}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}weight} \PYG{o}{/} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}height} \PYG{o}{*} \PYG{n+nv}{\PYGZdl{}height}\PYG{p}{),} \PYG{l+m+mi}{1}\PYG{p}{);}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{k}{function} \PYG{n+nf}{classify\PYGZus{}bmi}\PYG{p}{(}\PYG{n+nx}{float} \PYG{n+nv}{\PYGZdl{}bmi}\PYG{p}{)}\PYG{o}{:} \PYG{n+nx}{string} \PYG{p}{\PYGZob{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}bmi} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{18.5}\PYG{p}{)} \PYG{p}{\PYGZob{}}\PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}Underweight\PYGZdq{}}\PYG{p}{;\PYGZcb{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}bmi} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{30}\PYG{p}{)} \PYG{p}{\PYGZob{}}\PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}Obese\PYGZdq{}}\PYG{p}{;\PYGZcb{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}bmi} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{24.9}\PYG{p}{)} \PYG{p}{\PYGZob{}}\PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}Normal Weight\PYGZdq{}}\PYG{p}{;\PYGZcb{}}
+    \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}Overweight\PYGZdq{}}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{k}{function} \PYG{n+nf}{return\PYGZus{}bmi\PYGZus{}result}\PYG{p}{(}\PYG{n+nx}{string} \PYG{n+nv}{\PYGZdl{}name}\PYG{p}{,} \PYG{n+nx}{float} \PYG{n+nv}{\PYGZdl{}height}\PYG{p}{,} \PYG{n+nx}{float} \PYG{n+nv}{\PYGZdl{}weight}\PYG{p}{)}\PYG{o}{:} \PYG{n+nx}{string} \PYG{p}{\PYGZob{}}
+    \PYG{n+nv}{\PYGZdl{}bmi} \PYG{o}{=} \PYG{n+nx}{calc\PYGZus{}bmi}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}height}\PYG{p}{,} \PYG{n+nv}{\PYGZdl{}weight}\PYG{p}{);}
+    \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZdl{}person}\PYG{l+s+s2}{ weighs }\PYG{l+s+si}{\PYGZdl{}weight}\PYG{l+s+s2}{ and is }\PYG{l+s+si}{\PYGZdl{}height}\PYG{l+s+s2}{ metres tall. }\PYG{l+s+si}{\PYGZdl{}person}\PYG{l+s+s2}{\PYGZsq{}s BMI is }\PYG{l+s+si}{\PYGZdl{}bmi}\PYG{l+s+s2}{, which classifies them as \PYGZdq{}} \PYG{o}{.} \PYG{n+nx}{classify\PYGZus{}bmi\PYGZus{}result}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}bmi}\PYG{p}{);}
+  \PYG{p}{\PYGZcb{}}
+  \PYG{n+nv}{\PYGZdl{}people} \PYG{o}{=} \PYG{p}{[[}\PYG{l+s+s2}{\PYGZdq{}Foo\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mf}{1.692}\PYG{p}{,} \PYG{l+m+mf}{65.7}\PYG{p}{],} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Bar\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mf}{1.784}\PYG{p}{,} \PYG{l+m+mf}{72.9}\PYG{p}{],} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Baz\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mf}{1.72}\PYG{p}{,} \PYG{l+m+mi}{47}\PYG{p}{]];}
+  \PYG{k}{for} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n+nv}{\PYGZdl{}i} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{3}\PYG{p}{;} \PYG{n+nv}{\PYGZdl{}i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n+nv}{\PYGZdl{}person} \PYG{o}{=} \PYG{n+nv}{\PYGZdl{}people}\PYG{p}{[}\PYG{n+nv}{\PYGZdl{}i}\PYG{p}{];}
+    \PYG{n+nv}{\PYGZdl{}name} \PYG{o}{=} \PYG{n+nv}{\PYGZdl{}person}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{];}
+    \PYG{n+nv}{\PYGZdl{}height} \PYG{o}{=} \PYG{n+nv}{\PYGZdl{}person}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{];}
+    \PYG{n+nv}{\PYGZdl{}weight} \PYG{o}{=} \PYG{n+nv}{\PYGZdl{}person}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{];}
+    \PYG{k}{echo} \PYG{n+nx}{return\PYGZus{}bmi\PYGZus{}result}\PYG{p}{(}\PYG{n+nv}{\PYGZdl{}name}\PYG{p}{,} \PYG{n+nv}{\PYGZdl{}height}\PYG{p}{,} \PYG{n+nv}{\PYGZdl{}weight}\PYG{p}{)} \PYG{o}{.} \PYG{l+s+s2}{\PYGZdq{}\PYGZlt{}br\PYGZgt{}\PYGZdq{}}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+\PYG{c+cp}{?\PYGZgt{}}
+\end{Verbatim}
